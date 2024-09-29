@@ -1,12 +1,13 @@
 
+
 .grupos-textos{
 
   display: flex;
   flex-direction: row;
-  align-items: center;
+  
 
   p{
-
-    padding: 0px 40px;
+    padding: 25px 100px;
+    justify-content: space-around;
   }
 }
