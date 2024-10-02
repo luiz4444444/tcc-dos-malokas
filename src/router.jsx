@@ -11,7 +11,7 @@ export default function Navegação(){
             <Routes>
                 <Route path="/" element={<App/>} />
                 <Route path="/client" element={<Client/>} />
-
+ 
                 <Route path="*" element={<Erro/>} />
             </Routes>
         </BrowserRouter>

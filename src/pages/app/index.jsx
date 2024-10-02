@@ -4,23 +4,19 @@ import { Link } from 'react-router-dom';
 export default function App() {
 
   return (
-    <div className="App">
-      <div className='pagina-inicial pagina'>
-        <header className='cabecalho'>
-          <img src="/assets/images/logo.png" className='logo' />
-          
-          <div className='grupos-textos'>
-            <p>home</p>
-            <p>nossa marca</p>
-            <p>barba e cabelo</p>
-            <p>nossa unidade</p>
-            <p>mais</p>
-          </div>
-          
-        </header>
-        
-        <Link to='/client'>oidsoadi</Link>
-      </div>
+    <div className="App pagina">
+      <header className='cabecalho'>
+        <div className='area-logo'>
+          <img src="/assets/images/logo.png" className='logo'/>
+        </div>
+        <div className='area-links'>
+          <p>home</p>
+          <p>sobre nos</p>
+          <p>serviços</p>
+          <p>contatos</p>
+        </div>
+        <Link to="/client" className='botao'>Clientes</Link>
+      </header>
     </div>
   );
 }
