@@ -7,7 +7,9 @@ export default function App() {
     <div className="App">
       <div className='pagina-inicial pagina'>
         <header className='cabecalho'>
-        <img src="/assets/images/logo.png" className='logo' />
+          <div className='teste'>
+            <img src="/assets/images/logo.png" className='logo' />
+          </div>
 
           <div className='grupos-textos'>
             <p>home</p>
@@ -17,7 +19,8 @@ export default function App() {
             <p>mais</p>
 
           </div>
-          
+
+            <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor reprehenderit, veniam temporibus nam, vitae nobis dolores excepturi cupiditate minima sit porro aperiam totam eius harum quisquam repellendus, rem fuga eaque.</h1>
           
         </header>
       
