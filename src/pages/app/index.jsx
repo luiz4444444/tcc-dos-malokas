@@ -15,10 +15,10 @@ export default function App() {
           <p>serviços</p>
           <p>contatos</p>
         </div>
-        <p>
-          oi
-        </p>
-        <Link to="/client" className='botao'>Clientes</Link>
+        <div className='botao'>
+          <Link to="/client" className='link-botao'>Clientes</Link>
+        </div>
+        
       </header>
     </div>
   );
