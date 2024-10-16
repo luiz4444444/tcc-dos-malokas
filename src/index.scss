@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
 
 * {
   margin: 0px;
@@ -7,58 +7,77 @@
 
 
 .pagina{
-  background-color: #ffff;
   min-width: 100%;
 
-  .cabecalho{
-    padding: 1% 5%;
-    background-color: #f1f1f1;
-    margin: 0 auto;
-    max-width: 1100px;
-    margin-top: 10px;
+  .botao{
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-  
-    
-    .area-logo{
-      width: 100px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
 
-      .logo{
-        width: 80px;
-        
-      }
+    .link-botao{
+    padding: 20px;
+    display: flex;
+    align-items: center;
+
+    font: 24px;
+    text-decoration: none;
+    color: #000;
+    }
+  }
+
+  .cabecalho{
+    background-color: #f1f1f1;
+    max-width: 100%;
+    margin: 10px 20px 5px 20px;
+    display: flex;
+    border-radius: 8px;
+    border: #dfdfdf solid 1px;
+    box-shadow: 0px 1px 1px 1px rgba(#000000, 0.3);
+
+  
+    .logo{
+      width: 130px;
+      height: 110px;
+      padding-top: 1px;
+      margin: 0px 15px;
+      display: flex;
+      align-items: start;
+      justify-content: start;
     }
 
     .area-links{
-      width: 100%;
-      padding: 2%;
       display: flex;
+      gap: 50px;
+      justify-content: end;
       align-items: center;
-      justify-content: space-between;
+      border: #000 solid;
+      flex-direction: row;
+      
+      
 
       p{
+        font: 300 24px 'Roboto';
         text-align: center;
-        font-size: 20px;
-        font-family: "Roboto";
+        margin: 0px 25px;
       }
     }
 
-    .botao{
+    .text-foto{ 
+      width: 250px;
+      margin: 0px 30px;
       display: flex;
+      align-items: start;
+      justify-content: center;
+    }
 
-      .link-botao{
-      padding: 20px;
+    .contat-foto{
       display: flex;
       align-items: center;
-      text-decoration: none;
-      color: #000;
-      }
+      justify-content: center;
+      
+      width: 7%;
+      height: 7%;
+      margin-left: 95px;
+      padding-top: 15px;
+      
     }
-    
   }
-    
 }
